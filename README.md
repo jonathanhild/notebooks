@@ -8,7 +8,7 @@ Sampling & Distribution
 Inferential Statistics  
 Regression Statistics  
 
-### References
+## References
 Practical Statistics for Data Scientists  
 Introduction to Statistical Learning  
 The Elements of Statistical Learning  
