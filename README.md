@@ -4,7 +4,7 @@ Various Jupyter notebooks from data science/data analyst reading, courses, and t
 ## Statistics
 Descriptive Statistics  
 Probability  
-Sampling * Distribution  
+Sampling & Distribution  
 Inferential Statistics  
 Regression Statistics  
 
