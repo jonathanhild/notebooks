@@ -1,17 +1,12 @@
 # notebooks
-Various Jupyter notebooks from data science/data analyst readin, courses, and tutorials
+Various Jupyter notebooks from data science/data analyst reading, courses, and tutorials
 
-## Statistics/R
+## Statistics
 Descriptive Statistics
-Exploratory Statistics
 Probability
-Sampling Distributions
-Significance Testing
-Regression
-Prediction
-Classification
-Machine Learning
-Unsupervised Learning
+Sampling * Distribution
+Inferential Statistics
+Regression Statistics
 
 ### References
 Practical Statistics for Data Scientists
@@ -19,7 +14,6 @@ Introduction to Statistical Learning
 The Elements of Statistical Learning
 
 ## Python
-numpy
 pandas
 matplotlib
 seaborn
