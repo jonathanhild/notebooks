@@ -8,7 +8,7 @@ Sampling & Distribution
 Inferential Statistics  
 Regression Statistics  
 
-## References
+## References/Books
 Practical Statistics for Data Scientists  
 Introduction to Statistical Learning  
 The Elements of Statistical Learning  
@@ -17,3 +17,6 @@ The Elements of Statistical Learning
 pandas  
 matplotlib  
 seaborn  
+
+## SQL
+SQL from Pierian Data: Complete SQL Bootcamp, https://www.udemy.com/course/the-complete-sql-bootcamp/
