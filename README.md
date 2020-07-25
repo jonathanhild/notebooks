@@ -8,10 +8,12 @@ Sampling & Distribution
 Inferential Statistics  
 Regression Statistics  
 
-## References/Books
-Practical Statistics for Data Scientists  
-Introduction to Statistical Learning  
-The Elements of Statistical Learning  
+## Reading
+Practical Statistics for Data Scientists by Peter Bruce and Andrew Bruce  
+Introduction to Statistical Learning by Gareth James, Daniela Witten, et al  
+The Elements of Statistical Learning by Trevor Hastie, Robert Tibshirani, et al  
+Doing Data Science by Cathy O'Neil and Rachel Schutt  
+Data Science From Scratch by Joel Grus  
 
 ## Python
 pandas  
