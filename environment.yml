@@ -10,7 +10,7 @@ dependencies:
   - argon2-cffi=20.1.0=py38h27cfd23_1
   - astunparse=1.6.3=py_0
   - async_generator=1.10=pyhd3eb1b0_0
-  - attrs=20.3.0=pyhd3eb1b0_0
+  - attrs=21.2.0=pyhd3eb1b0_0
   - backcall=0.2.0=pyhd3eb1b0_0
   - beautifulsoup4=4.9.3=pyha847dfd_0
   - blas=1.0=mkl
@@ -24,7 +24,7 @@ dependencies:
   - certifi=2020.12.5=py38h06a4308_0
   - cffi=1.14.0=py38h2e261b9_0
   - chardet=4.0.0=py38h06a4308_1003
-  - click=7.1.2=pyhd3eb1b0_0
+  - click=8.0.1=pyhd3eb1b0_0
   - confuse=1.4.0=pyhd3eb1b0_0
   - coverage=5.5=py38h27cfd23_2
   - cryptography=3.4.7=py38hd23ed53_0
@@ -45,7 +45,7 @@ dependencies:
   - google-pasta=0.2.0=py_0
   - graphite2=1.3.14=h23475e2_0
   - graphviz=2.40.1=h21bd128_2
-  - greenlet=1.0.0=py38h2531618_2
+  - greenlet=1.1.0=py38h2531618_0
   - grpcio=1.36.1=py38h2157cd5_1
   - gst-plugins-base=1.14.0=hbbd80ab_1
   - gstreamer=1.14.0=hb453b48_1
@@ -64,7 +64,7 @@ dependencies:
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
   - ipywidgets=7.6.3=pyhd3eb1b0_1
   - jedi=0.17.0=py38_0
-  - jinja2=2.11.3=pyhd3eb1b0_0
+  - jinja2=3.0.0=pyhd3eb1b0_0
   - joblib=1.0.1=pyhd3eb1b0_0
   - jpeg=9b=h024ee3a_2
   - jsonschema=3.2.0=py_2
@@ -98,7 +98,7 @@ dependencies:
   - lxml=4.6.3=py38h9120a33_0
   - lz4-c=1.9.3=h2531618_0
   - markdown=3.3.4=py38h06a4308_0
-  - markupsafe=1.1.1=py38h7b6447c_0
+  - markupsafe=2.0.1=py38h27cfd23_0
   - matplotlib=3.3.4=py38h06a4308_0
   - matplotlib-base=3.3.4=py38h62a2d02_0
   - matplotlib-venn=0.11.6=pyh9f0ad1d_0
@@ -106,8 +106,6 @@ dependencies:
   - mistune=0.8.4=py38h7b6447c_1000
   - mkl=2021.2.0=h06a4308_296
   - mkl-service=2.3.0=py38h27cfd23_1
-  - mkl_fft=1.3.0=py38h42c9631_2
-  - mkl_random=1.2.1=py38ha9443f7_2
   - nbclient=0.5.3=pyhd3eb1b0_0
   - nbconvert=6.0.7=py38_0
   - nbformat=5.1.3=pyhd3eb1b0_0
@@ -115,13 +113,13 @@ dependencies:
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
   - networkx=2.5.1=pyhd3eb1b0_0
   - nose=1.3.7=pyhd3eb1b0_1006
-  - notebook=6.3.0=py38h06a4308_0
+  - notebook=6.4.0=py38h06a4308_0
   - numba=0.53.1=py38ha9443f7_0
   - numpy=1.19.5=py38h18fd61f_1
   - oauthlib=3.1.0=py_0
   - olefile=0.46=py_0
   - openssl=1.1.1k=h27cfd23_0
-  - opt_einsum=3.1.0=py_0
+  - opt_einsum=3.3.0=pyhd3eb1b0_1
   - packaging=20.9=pyhd3eb1b0_0
   - pandas=1.2.4=py38h2531618_0
   - pandas-profiling=2.9.0=pyhd3eb1b0_0
@@ -135,7 +133,7 @@ dependencies:
   - phik=0.11.2=pyhd3eb1b0_0
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=8.2.0=py38he98fc37_0
-  - pip=21.0.1=py38h06a4308_0
+  - pip=21.1.1=py38h06a4308_0
   - pixman=0.40.0=h7b6447c_0
   - pmdarima=1.8.2=py38hb5d20a5_0
   - prometheus_client=0.10.1=pyhd3eb1b0_0
@@ -146,7 +144,7 @@ dependencies:
   - pyasn1-modules=0.2.8=py_0
   - pycparser=2.20=py_2
   - pydot=1.4.1=py38h06a4308_0
-  - pygments=2.8.1=pyhd3eb1b0_0
+  - pygments=2.9.0=pyhd3eb1b0_0
   - pyjwt=1.7.1=py38_0
   - pyopenssl=20.0.1=pyhd3eb1b0_1
   - pyparsing=2.4.7=pyhd3eb1b0_0
@@ -166,7 +164,7 @@ dependencies:
   - requests=2.25.1=pyhd3eb1b0_0
   - requests-oauthlib=1.3.0=py_0
   - rsa=4.7.2=pyhd3eb1b0_1
-  - scikit-learn=0.24.1=py38ha9443f7_0
+  - scikit-learn=0.24.2=py38ha9443f7_0
   - scipy=1.6.2=py38had2a1c9_1
   - seaborn=0.11.1=pyhd3eb1b0_0
   - selenium=3.141.0=py38h27cfd23_1000
@@ -175,10 +173,10 @@ dependencies:
   - sip=4.19.13=py38he6710b0_0
   - six=1.15.0=py38h06a4308_0
   - soupsieve=2.2.1=pyhd3eb1b0_0
-  - sqlalchemy=1.4.7=py38h27cfd23_0
+  - sqlalchemy=1.4.15=py38h27cfd23_0
   - sqlite=3.35.4=hdfb4753_0
   - statsmodels=0.11.1=py38h1e0a361_2
-  - tangled-up-in-unicode=0.0.7=pyhd3eb1b0_0
+  - tangled-up-in-unicode=0.1.0=pyhd3eb1b0_0
   - tbb=2020.3=hfd86e86_0
   - tensorboard=2.4.0=pyhc547734_0
   - tensorboard-plugin-wit=1.6.0=py_0
