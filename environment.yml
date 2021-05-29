@@ -24,6 +24,7 @@ dependencies:
   - certifi=2020.12.5=py38h06a4308_0
   - cffi=1.14.0=py38h2e261b9_0
   - chardet=4.0.0=py38h06a4308_1003
+  - chart-studio=1.1.0=pyh9f0ad1d_0
   - click=8.0.1=pyhd3eb1b0_0
   - confuse=1.4.0=pyhd3eb1b0_0
   - coverage=5.5=py38h27cfd23_2
@@ -34,11 +35,10 @@ dependencies:
   - decorator=4.4.2=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
   - entrypoints=0.3=py38_0
-  - expat=2.3.0=h2531618_2
+  - expat=2.4.1=h2531618_2
   - fontconfig=2.13.1=h6c09931_0
   - freetype=2.10.4=h5ab3b9f_0
   - fribidi=1.0.10=h7b6447c_0
-  - gast=0.4.0=py_0
   - glib=2.63.1=h5a9c865_0
   - google-auth=1.21.3=py_0
   - google-auth-oauthlib=0.4.4=pyhd3eb1b0_0
@@ -121,7 +121,6 @@ dependencies:
   - openssl=1.1.1k=h27cfd23_0
   - opt_einsum=3.3.0=pyhd3eb1b0_1
   - packaging=20.9=pyhd3eb1b0_0
-  - pandas=1.2.4=py38h2531618_0
   - pandas-profiling=2.9.0=pyhd3eb1b0_0
   - pandoc=2.12=h06a4308_0
   - pandocfilters=1.4.3=py38h06a4308_1
@@ -130,11 +129,11 @@ dependencies:
   - patsy=0.5.1=py38_0
   - pcre=8.44=he6710b0_0
   - pexpect=4.8.0=pyhd3eb1b0_3
-  - phik=0.11.2=pyhd3eb1b0_0
+  - phik=0.11.2=pyhd3eb1b0_1
   - pickleshare=0.7.5=pyhd3eb1b0_1003
   - pillow=8.2.0=py38he98fc37_0
-  - pip=21.1.1=py38h06a4308_0
   - pixman=0.40.0=h7b6447c_0
+  - plotly=4.14.3=pyhd3eb1b0_0
   - pmdarima=1.8.2=py38hb5d20a5_0
   - prometheus_client=0.10.1=pyhd3eb1b0_0
   - prompt-toolkit=3.0.17=pyh06a4308_0
@@ -163,6 +162,7 @@ dependencies:
   - readline=8.1=h27cfd23_0
   - requests=2.25.1=pyhd3eb1b0_0
   - requests-oauthlib=1.3.0=py_0
+  - retrying=1.3.3=py_2
   - rsa=4.7.2=pyhd3eb1b0_1
   - scikit-learn=0.24.2=py38ha9443f7_0
   - scipy=1.6.2=py38had2a1c9_1
@@ -206,11 +206,60 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
   - pip:
+    - apache-beam==2.29.0
     - arrow==1.1.0
+    - avro-python3==1.9.2.1
     - binaryornot==0.4.4
-    - cookiecutter==1.7.3
+    - crcmod==1.7
+    - docker==5.0.0
+    - docopt==0.6.2
+    - fastavro==1.4.1
+    - fasteners==0.16
+    - flatbuffers==1.12
+    - future==0.18.2
+    - gast==0.3.3
+    - google-api-core==1.28.0
+    - google-api-python-client==2.6.0
+    - google-apitools==0.5.31
+    - google-auth-httplib2==0.1.0
+    - google-cloud-bigquery==1.28.0
+    - google-cloud-bigtable==1.7.0
+    - google-cloud-core==1.6.0
+    - google-cloud-datastore==1.15.3
+    - google-cloud-dlp==1.0.0
+    - google-cloud-language==1.3.0
+    - google-cloud-pubsub==1.7.0
+    - google-cloud-spanner==1.19.1
+    - google-cloud-storage==1.38.0
+    - google-cloud-videointelligence==1.16.1
+    - google-cloud-vision==1.0.0
+    - google-crc32c==1.1.2
+    - google-resumable-media==1.3.0
+    - googleapis-common-protos==1.53.0
+    - grpc-google-iam-v1==0.12.3
+    - grpcio-gcp==0.2.2
+    - hdfs==2.6.0
+    - httplib2==0.19.1
+    - importlib-resources==5.1.4
     - jinja2-time==0.2.0
+    - keras-tuner==1.0.2
+    - oauth2client==4.1.3
+    - pandas==1.2.4
+    - pip==21.1.2
     - poyo==0.5.0
+    - promise==2.3
+    - pyarrow==2.0.0
+    - pymongo==3.11.4
+    - tensorflow-cloud==0.1.15
+    - tensorflow-datasets==4.3.0
+    - tensorflow-metadata==1.0.0
+    - tensorflow-serving-api==2.5.1
+    - tensorflow-transform==1.0.0
+    - terminaltables==3.1.0
     - text-unidecode==1.3
+    - tfx-bsl==1.0.0
+    - typing-extensions==3.7.4.3
+    - uritemplate==3.0.1
+    - websocket-client==1.0.1
     - yellowbrick==1.3.post1
 prefix: /home/jonathan/anaconda3/envs/datascience
