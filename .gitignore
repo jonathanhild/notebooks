@@ -128,5 +128,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# ShapeFile file types
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shp.ea.iso.xml
+*.shp.iso.xml
+*.shx
+
 # Custom
 .virtual_documents
