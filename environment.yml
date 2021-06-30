@@ -24,6 +24,7 @@ dependencies:
   - blas=1.0=mkl
   - bleach=3.3.0=pyhd3eb1b0_0
   - blinker=1.4=py38h06a4308_0
+  - bokeh=2.3.2=py38h06a4308_0
   - brotli=1.0.9=he6710b0_2
   - brotlipy=0.7.0=py38h27cfd23_1003
   - c-ares=1.17.1=h27cfd23_0
@@ -33,6 +34,7 @@ dependencies:
   - cffi=1.14.5=py38h261ae71_0
   - chardet=3.0.4=py38h06a4308_1003
   - click=8.0.1=pyhd3eb1b0_0
+  - cloudpickle=1.6.0=py_0
   - confuse=1.4.0=pyhd3eb1b0_0
   - constantly=15.1.0=py_0
   - cookiecutter=1.7.2=pyhd3eb1b0_0
@@ -41,13 +43,18 @@ dependencies:
   - cssselect=1.1.0=py_0
   - cycler=0.10.0=py38_0
   - cython=0.29.23=py38h2531618_0
+  - cytoolz=0.11.0=py38h7b6447c_0
+  - dask=2021.6.2=pyhd3eb1b0_0
+  - dask-core=2021.6.2=pyhd3eb1b0_0
   - dbus=1.13.18=hb2f20db_0
   - decorator=4.4.2=pyhd3eb1b0_0
   - defusedxml=0.7.1=pyhd3eb1b0_0
+  - distributed=2021.6.2=py38h06a4308_0
   - entrypoints=0.3=py38_0
   - expat=2.4.1=h2531618_2
   - fontconfig=2.13.1=h6c09931_0
   - freetype=2.10.4=h5ab3b9f_0
+  - fsspec=2021.6.0=pyhd3eb1b0_0
   - gast=0.4.0=py_0
   - geos=3.8.0=he6710b0_0
   - glib=2.68.2=h36276a3_0
@@ -59,6 +66,7 @@ dependencies:
   - gstreamer=1.14.0=h28cd5cc_2
   - h5py=2.10.0=py38hd6299e0_1
   - hdf5=1.10.6=hb1b8bf9_0
+  - heapdict=1.0.1=py_0
   - htmlmin=0.1.12=pyhd3eb1b0_1
   - hyperlink=21.0.0=pyhd3eb1b0_0
   - icu=58.2=he6710b0_3
@@ -107,6 +115,7 @@ dependencies:
   - libxml2=2.9.12=h03d6c58_0
   - libxslt=1.1.34=hc22bd24_0
   - llvmlite=0.36.0=py38h612dafd_4
+  - locket=0.2.1=py38h06a4308_1
   - lxml=4.6.3=py38h9120a33_0
   - lz4-c=1.9.3=h2531618_0
   - markdown=3.3.4=py38h06a4308_0
@@ -120,6 +129,7 @@ dependencies:
   - mkl_fft=1.3.0=py38h42c9631_2
   - mkl_random=1.2.1=py38ha9443f7_2
   - more-itertools=8.8.0=pyhd3eb1b0_0
+  - msgpack-python=1.0.2=py38hff7bd54_1
   - multidict=5.1.0=py38h27cfd23_2
   - nbclient=0.5.3=pyhd3eb1b0_0
   - nbconvert=6.1.0=py38h06a4308_0
@@ -141,6 +151,7 @@ dependencies:
   - pandocfilters=1.4.3=py38h06a4308_1
   - parsel=1.5.2=py38h06a4308_0
   - parso=0.7.0=py_0
+  - partd=1.2.0=pyhd3eb1b0_0
   - patsy=0.5.1=py38_0
   - pcre=8.45=h295c915_0
   - pexpect=4.8.0=pyhd3eb1b0_3
@@ -155,6 +166,7 @@ dependencies:
   - prometheus_client=0.11.0=pyhd3eb1b0_0
   - prompt-toolkit=3.0.17=pyh06a4308_0
   - protobuf=3.14.0=py38h2531618_1
+  - psutil=5.8.0=py38h27cfd23_1
   - ptyprocess=0.7.0=pyhd3eb1b0_2
   - py=1.10.0=pyhd3eb1b0_0
   - pyasn1=0.4.8=py_0
@@ -198,11 +210,13 @@ dependencies:
   - setuptools=52.0.0=py38h06a4308_0
   - sip=4.19.13=py38he6710b0_0
   - six=1.16.0=pyhd3eb1b0_0
+  - sortedcontainers=2.4.0=pyhd3eb1b0_0
   - soupsieve=2.2.1=pyhd3eb1b0_0
   - sqlite=3.36.0=hc218d9a_0
   - statsmodels=0.12.2=py38h27cfd23_0
   - tangled-up-in-unicode=0.1.0=pyhd3eb1b0_0
   - tbb=2020.3=hfd86e86_0
+  - tblib=1.7.0=py_0
   - tensorboard=2.5.0=py_0
   - tensorboard-plugin-wit=1.6.0=py_0
   - tensorflow=2.4.1=mkl_py38hb2083e0_0
@@ -215,6 +229,7 @@ dependencies:
   - threadpoolctl=2.1.0=pyh5ca1d4c_0
   - tk=8.6.10=hbc83047_0
   - toml=0.10.2=pyhd3eb1b0_0
+  - toolz=0.11.1=pyhd3eb1b0_0
   - tornado=6.1=py38h27cfd23_0
   - tqdm=4.61.1=pyhd3eb1b0_1
   - traitlets=5.0.5=pyhd3eb1b0_0
@@ -237,6 +252,7 @@ dependencies:
   - yaml=0.2.5=h7b6447c_0
   - yarl=1.6.3=py38h27cfd23_0
   - zeromq=4.3.4=h2531618_0
+  - zict=2.0.0=pyhd3eb1b0_0
   - zipp=3.4.1=pyhd3eb1b0_0
   - zlib=1.2.11=h7b6447c_3
   - zope=1.0=py38_1
