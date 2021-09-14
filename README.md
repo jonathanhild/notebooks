@@ -3,33 +3,42 @@
 My notes of machine learning/deep learning algorithms, mathematics and statistics, and other computer science topics.
 
 ## Machine Learning Algorithms
-**Regression**  
-- Linear Regression ([Link](./algo_ml_linregression.ipynb))
-- Polynomial Regression ([Link](./algo_ml_polyregression.ipynb))
 
-**Classification**
+### Regression
+
+- Linear Regression ([Link](./algo_ml_linregression.ipynb))
+- TODO: Polynomial Regression ([Link](./algo_ml_polyregression.ipynb))
+
+### Classification
+
 - Logistic Regression ([Link](.ipynb))
 - K Nearest Neighbors ([Link](.ipynb))
-- Naive Bayes ([Link](.ipynb))
+- TODO: Naive Bayes ([Link](.ipynb))
 - Decision Trees ([Link](.ipynb))
 - Random Forests ([Link](algo_ml_randomforest.ipynb))
-- Gradient Boosted Trees ([Link](./algo_ml_gradientboosttrees.ipynb))
+- TODO: Gradient Boosted Trees ([Link](./algo_ml_gradientboosttrees.ipynb))
 - Support Vector Machines ([Link](./algo_ml_svm.ipynb))
-- AdaBoost ([Link](algo_ml_adaboost.ipynb))
+- TODO: AdaBoost ([Link](algo_ml_adaboost.ipynb))
 
-**Clustering**
+### Clustering
+
 - K-Means ([Link](./algo_ml_kmeans.ipynb))
 - Dimensionality Reduction ([Link](.ipynb))
 
-**Other**
+### Other
+
 - Time Series Analysis ([Link](./algo_ml_timeseries.ipynb))
 
 ## Deep Learning Algorithms
+
 - Artificial/Forward Feed Neural Networks ([Link](./algo_deep_ann.ipynb))
 - Convolutional Neural Networks ([Link](./algo_deep_cnn.ipynb))
 - Recurrent Neural Networks ([Link](./algo_deep_rnn.ipynb))
+- TODO: Autoencoders ([Link](./algo_deep_autoencoders.ipynb))
+- TODO: Generative Adversarial Networks ([Link](./algo_deep_gan.ipynb))
 
 ## Mathematics & Statistics
+
 - Calculus ([Link](./calculus.ipynb))
 - Linear Algebra ([Link](./linear_algebra.ipynb))
 - Descriptive Statistics ([Link](./stats_descriptive.ipynb))
@@ -40,22 +49,25 @@ My notes of machine learning/deep learning algorithms, mathematics and statistic
 - Bayesian Statistics ([Link](./stats_bayesian.ipynb))
 
 ## Data Structures
+
 - Data Structures ([Link](./data_structures.ipynb))
 
 ## Data Analysis & Visualization
+
 - Python ([Link](./python.ipynb))
 - Pandas Performance ([Link](./pandas_performance_tips.ipynb))
 - Seaborn ([Link](./seaborn.ipynb))
-- SQL ([Link](./sql.ipynb)) - from Pierian Data: Complete SQL Bootcamp, https://www.udemy.com/course/the-complete-sql-bootcamp/
+- SQL ([Link](./sql.ipynb)) - from Pierian Data: Complete SQL Bootcamp, ([Link](https://www.udemy.com/course/the-complete-sql-bootcamp/))
 - Easy EDA & Dash ([Link](./easy_data_exploration_vis_and_dash.ipynb))
 - PyDataPDX Lunch & Learn Sessions
-    - Data Visualization 101 ([Link](./plotting/data_visualization_101.pdf))
-    - Data Visualization 102 ([Link](./plotting/data_visualization_102.ipynb))
-    - Data Visualization 103 ([Link](./plotting/data_visualization_103.pdf))
+  - Data Visualization 101 ([Link](./plotting/data_visualization_101.pdf))
+  - Data Visualization 102 ([Link](./plotting/data_visualization_102.ipynb))
+  - Data Visualization 103 ([Link](./plotting/data_visualization_103.pdf))
 
 ## My Data Science Learning Path
 
 ### Reading List
+
 1. Practical Statistics for Data Scientists.
 1. All of Statistics.
 1. An introduction to Statistical Learning.
@@ -80,10 +92,8 @@ My notes of machine learning/deep learning algorithms, mathematics and statistic
 1. Introducing MLOps.
 
 ### Sources
+
 1. ArXiv ([ArXiv.org](https://arxiv.org/))
 1. Papers With Code ([paperswithcode.com](https://paperswithcode.com/))
-
-### Structure
-<img src='./img/data_science_skills.png' width='650'>
 
 Jonathan Hildenbrand, [https://github.com/jonathanhild](https://github.com/jonathanhild)
