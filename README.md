@@ -19,6 +19,7 @@ My notes of machine learning/deep learning algorithms, mathematics and statistic
 - TODO: Gradient Boosted Trees ([Link](./algo_ml_gradientboosttrees.ipynb))
 - Support Vector Machines ([Link](./algo_ml_svm.ipynb))
 - TODO: AdaBoost ([Link](algo_ml_adaboost.ipynb))
+- TODOL XGBoost ([Link](algo_ml_xgboost.ipynb))
 
 ### Clustering
 
