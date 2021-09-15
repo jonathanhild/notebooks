@@ -1,5 +1,6 @@
 # Custom
 .virtual_documents
+gan_models/
 gan_images/
 gan_training_checkpoints/
 
