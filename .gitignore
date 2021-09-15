@@ -1,3 +1,8 @@
+# Custom
+.virtual_documents
+gan_images/
+gan_training_checkpoints/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -136,6 +141,3 @@ dmypy.json
 *.shp.ea.iso.xml
 *.shp.iso.xml
 *.shx
-
-# Custom
-.virtual_documents
