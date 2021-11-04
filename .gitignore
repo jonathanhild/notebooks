@@ -3,6 +3,8 @@
 gan_models/
 gan_images/
 gan_training_checkpoints/
+ae_models/
+ae_training_checkpoints/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
